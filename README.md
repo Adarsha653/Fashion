@@ -76,30 +76,32 @@ Follow these steps to get started with the tutorial:
 
 ### 1. Clone the Repository:
 
-'''
+```bash
+conda env create -f PyTorchTutorial.xml
 git clone https://github.com/junaidaliop/pytorch-fashionMNIST-tutorial.git
 cd pytorch-fashionMNIST-tutorial
-'''
+```
+
 
 ### 2. Set Up the Conda Environment:
 
 Use the provided `PyTorchTutorial.xml` file to set up the Conda environment with all required dependencies:
 
-'''
+```bash
 conda env create -f PyTorchTutorial.xml
-'''
+```
 
 Activate the environment:
 
-'''
+```bash
 conda activate PyTorchTutorial
-'''
+```
 
 ### 3. Launch the Jupyter Notebook:
 
-'''
+```bash
 jupyter notebook
-'''
+```
 
 Navigate to the `pytorch_fashion_mnist_tutorial.ipynb` file in the Jupyter Notebook interface, and you're ready to dive into the tutorial!
 
