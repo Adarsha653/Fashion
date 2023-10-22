@@ -77,7 +77,6 @@ Follow these steps to get started with the tutorial:
 ### 1. Clone the Repository:
 
 ```bash
-conda env create -f PyTorchTutorial.xml
 git clone https://github.com/junaidaliop/pytorch-fashionMNIST-tutorial.git
 cd pytorch-fashionMNIST-tutorial
 ```
